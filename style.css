@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ruda:wght@400..900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #d9d9d9;
+}
+#heading {
+  width: 100%;
+  height: 76px;
+  background-color: black;
+  display: block;
+}
+#heading p {
+  color: white;
+  background-color: black;
+  position: relative;
+  width: 164px;
+  height: 29px;
+  top: 24px;
+  left: 21px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+  text-align: left;
+}
+#search-section {
+  display: flex;
+  justify-content: space-between;
+}
+#search-bar {
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #d9d9d9;
+  border: 1px solid #000000;
+}
+#search-bar > input {
+  width: 1400px;
+  height: 65px;
+  padding: 15px;
+  border: none;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+  text-align: left;
+}
+#search-button {
+  margin-top: 10px;
+  margin-right: 15px;
+}
+#search-button > button {
+  background-color: #000000;
+  color: white;
+  width: 217px;
+  height: 95px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+  text-align: left;
+  padding: 15px;
+  cursor: pointer;
+}
+#sorting-option {
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+#sorting-option > button {
+  width: 217px;
+  height: 66px;
+  top: 197px;
+  left: 29px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+#table {
+  margin-top: 10px;
+  margin-left: 15px;
+  width: 100%;
+  table-layout: auto;
+  border: 1px solid black;
+  table-layout: auto;
+}
+th {
+  border: 1px solid black;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+  text-align: left;
+  text-align: center;
+}
+td {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+  text-align: left;
+  border: 1px solid black;
+  text-align: center;
+}
+.hide {
+  display: none;
+}
